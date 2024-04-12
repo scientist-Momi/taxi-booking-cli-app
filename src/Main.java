@@ -75,7 +75,8 @@ public class Main {
             System.out.println("|      "+yellowColorCode+"[2]"+resetColorCode+". All Drivers                                   |");
             System.out.println("|      "+yellowColorCode+"[3]"+resetColorCode+". Find Driver                                   |");
             System.out.println("|      "+yellowColorCode+"[4]"+resetColorCode+". Delete Driver                                 |");
-            System.out.println("|      "+yellowColorCode+"[0]"+resetColorCode+". Exit                                          |");
+            System.out.println("|      "+yellowColorCode+"[5]"+resetColorCode+". Main Menu                                     |");
+            System.out.println("|      "+yellowColorCode+"[0]"+resetColorCode+". Exit Application                              |");
             System.out.println("-----------------------------------------------------------");
             System.out.println("-----------------------------------------------------------");
             System.out.println(" ");
@@ -124,8 +125,11 @@ public class Main {
                     System.out.println("-----------------------------------------------------------");
                     deleteDriverOption();
                     break;
-                case 0:
+                case 5:
                     startMenu();
+                    break;
+                case 0:
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("-----------------------------------------------------------");
@@ -152,7 +156,8 @@ public class Main {
             System.out.println("|      "+yellowColorCode+"[2]"+resetColorCode+". All Customers                                 |");
             System.out.println("|      "+yellowColorCode+"[3]"+resetColorCode+". Book a Ride                                   |");
             System.out.println("|      "+yellowColorCode+"[4]"+resetColorCode+". All Trips                                     |");
-            System.out.println("|      "+yellowColorCode+"[0]"+resetColorCode+". Exit                                          |");
+            System.out.println("|      "+yellowColorCode+"[5]"+resetColorCode+". Main Menu                                     |");
+            System.out.println("|      "+yellowColorCode+"[0]"+resetColorCode+". Exit Application                              |");
             System.out.println("-----------------------------------------------------------");
             System.out.println("-----------------------------------------------------------");
             System.out.println(" ");
@@ -200,8 +205,11 @@ public class Main {
                     System.out.println("-----------------------------------------------------------");
                     displayMyTrips();
                     break;
-                case 0:
+                case 5:
                     startMenu();
+                    break;
+                case 0:
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("-----------------------------------------------------------");
